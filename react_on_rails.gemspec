@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "connection_pool"
-  s.add_dependency "execjs", "~> 2.5"
-  s.add_dependency "rainbow", "~> 2.1"
+  s.add_dependency "execjs", ">= 2.5"
+  s.add_dependency "rainbow", ">= 2.1"
   s.add_dependency "rails", ">= 3.2"
   s.add_dependency "foreman"
 
